@@ -1,16 +1,18 @@
-# This is a sample Python script.
+print("Hello, Abubaker")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Indention: Spaces at the beginning of a code line
+if 5 > 2:
+    print("Five is greater than two!")
 
+if 5 > 3:
+    print("Five is greater than three!")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Variables: In Python, variables are created when you assign a value to it
+x = 5
+y = "Hello, World!"
 
+# Comments: This is a comment
+print("Just use # for converting a line into a comment")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Test Yourself with Exercise
+print("Hello, I am the missing element.")
