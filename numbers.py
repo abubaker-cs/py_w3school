@@ -1,3 +1,5 @@
+import random
+
 """
     Python Numbers
     1. Integer
@@ -50,3 +52,48 @@ print("34e4: " + str(type(x)))
 print("12E3: " + str(type(y)))
 print("-94.3e100: " + str(type(z)))
 
+print("")
+print("-------------------------------------------")
+print("")
+
+# Complex = Complex numbers are written with a "j" as the imaginary part:
+x = 3 + 5j
+y = 5j
+z = -5j
+
+print("3+5j: " + str(type(x)))
+print("5j: " + str(type(y)))
+print("-5j: " + str(type(z)))
+
+print("")
+print("-------------------------------------------")
+print("")
+
+# Type Conversion - You can convert from one type to another with the int(), float(), and complex() methods:
+
+x = 1  # int
+y = 2.8  # float
+z = 1j  # complex
+
+# int > float
+a = float(x)
+
+# float > int
+b = int(y)
+
+# int > complex
+c = complex(x)
+
+print(str(a) + ": " + str(type(x)))
+print(str(b) + ": " + str(type(y)))
+print(str(c) + ": " + str(type(z)))
+
+print("***")
+print("Note: You cannot convert complex numbers into another number type.")
+
+print("")
+print("-------------------------------------------")
+print("")
+
+# Random Number: Import the random module, and display a random number between 1 and 9:
+print(random.randrange(1, 10))
