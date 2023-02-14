@@ -23,9 +23,16 @@ print(type(x))
     ==============================
     In Python, the data type is set when you assign a value to a variable:
 """
+
+# 01 Text Type:
+# 1. str
 x = "Hello World"
 print("str: " + x)
 
+# 02 Numeric Types:
+# 2. int
+# 3. float
+# 4. complex
 x = 20
 print("int: " + str(x))
 
@@ -34,6 +41,11 @@ print("float: " + str(x))
 
 x = 1j
 print("complex: " + str(x))
+
+# 03 Sequence Types:
+# 5. list
+# 6. tuple
+# 7. range
 
 x = ["apple", "orange", "cherry"]
 print("list: " + str(x))
@@ -44,18 +56,29 @@ print("tuple: " + str(x))
 x = range(6)
 print("range: " + str(x))
 
+# 04 Mapping Type:
+# 8. dict
 x = {"name": "Abubaker", "age": 36}
 print("dict: " + str(x))
 
+# 05 Set Types:
+# 9. set
+# 10. forzenset
 x = {"bmw", "mazda", "suzuki"}
 print("set: " + str(x))
 
 x = frozenset({"apple", "banana", "cherry"})
 print("frozenset: " + str(x))
 
+# 06 Boolean Type
+# 11. bool
 x = True
 print("boolean: " + str(x))
 
+# 07 Binary Types:
+# 12. bytes
+# 13. bytearray
+# 14. memoryview
 x = b"Hello"
 print("bytes: " + str(x))
 
@@ -65,6 +88,8 @@ print("bytearray: " + str(x))
 x = memoryview(bytes(5))
 print("memoryview: " + str(x))
 
+# None Type:
+# 15. NoneType
 x = None
 print("NoneType: " + str(x))
 
@@ -73,4 +98,3 @@ print("NoneType: " + str(x))
     ==============================
     If you want to specify the data type, you can use the following constructor functions:
 """
-
